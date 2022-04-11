@@ -96,6 +96,7 @@ const IndexPage = () => {
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations ! This page updates in real time...
+        <h2>I have added this second line of code</h2>
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
