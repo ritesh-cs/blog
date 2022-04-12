@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from '../components/layout'
-
+import { StaticImage } from "gatsby-plugin-image"
 
 
 // styles
@@ -99,6 +99,10 @@ const IndexPage = () => {
   return (
      <Layout pageTitle="Home">
         This is home Page edited
+        <StaticImage 
+          alt="Pitbull"
+          src="../images/icon.png">
+        </StaticImage>
      </Layout>
   )
 }
